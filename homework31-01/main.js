@@ -11,3 +11,13 @@ else {
   alert("snail standing still");
 }
 // <<<<<<<<<<<<<<<task3>>>>>>>>>>>>>
+let myMoney = +prompt("how much money u have");
+let friendMoney = +prompt("how much money ur friend has");
+let allMoney = friendMoney + myMoney;
+if (allMoney >= 5000 ){
+  alert("flight in Malta");
+}else if (allMoney >= 1000){
+  alert("go learn eng");
+}else {
+  alert ("go drink beer");
+}
