@@ -59,3 +59,19 @@ switch (typeOperation.toUpperCase()) {
   case "UAN": money = sum * 24;  break;
 }
 alert(money);
+//<<<<<<<<<<<<<<<task9>>>>>>>>>>>
+let greeting;
+let lang = prompt("enter language ru end or de").toUpperCase();
+switch (lang) {
+  case "RU" : greeting = "Привет мир"; break;
+  case "ENG" : greeting = "hellow world"; break;
+  case "de" : greeting = "oups i dont know Deutsch"; break;
+}
+if (lang = "RU"){
+  greeting = "Привет мир";
+}else if(lang = "ENG"){
+  greeting = "hellow world";
+}else {
+  greeting = "oups i dont know Deutsch";
+}
+alert(greeting);
