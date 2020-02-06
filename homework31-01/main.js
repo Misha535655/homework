@@ -75,3 +75,29 @@ if (lang = "RU"){
   greeting = "oups i dont know Deutsch";
 }
 alert(greeting);
+//<<<<<<<<<<<<<<<task11>>>>>>>>>>>
+let language = prompt("eng or ru").toUpperCase();
+let days = +prompt("enter day 0 - sunday ...");
+let result;
+if (language == "ENG"){
+switch (days) {
+  case 0: result = "Sunday";   break;
+  case 1: result = "Saturday";   break;
+  case 2: result = "Friday";   break;
+  case 3: result = "Thursday";   break;
+  case 4: result = "Wednesday";   break;
+  case 5: result = "Tuesday";   break;
+  case 6: result = "Monday";   break;
+}
+}else {
+  switch (days) {
+    case 0: result = "Воскресенье";   break;
+    case 1: result = "Суббота";   break;
+    case 2: result = "Пятница";   break;
+    case 3: result = "Четверг";   break;
+    case 4: result = "Среда";   break;
+    case 5: result = "Вторник";   break;
+    case 6: result = "Понедельник";   break;
+  }
+}
+alert(result);
