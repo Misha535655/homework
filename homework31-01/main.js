@@ -29,3 +29,10 @@ if (age >= 20 && age <= 30 )
 } else {
   alert("bye bye");
 }
+//<<<<<<<<<<<<<<<task5>>>>>>>>>>>>
+var busNumber = +prompt("enter number bus at the stop");
+if (busNumber == 7 || busNumber == 225 || busNumber == 255){
+  alert ("this is your bus")
+}else{
+  alert("ohh wait next bus")
+}
