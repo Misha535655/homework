@@ -37,8 +37,8 @@ if (busNumber == 7 || busNumber == 225 || busNumber == 255){
   alert("ohh wait next bus")
 }
 //<<<<<<<<<<<<<<<task6>>>>>>>>>>>
-let day = isFinite(prompt("what today is the day of the week"));
-if (day == isFinite("Saturday") || day == isFinite("Sanday")){
+let day = prompt("what today is the day of the week").toUpperCase();
+if (day == "SATURDAY" || day == "SANDAY"){
   alert ("u can sleeep")
 }else {
   alert("go to work")
@@ -49,4 +49,13 @@ if (hellower == null || hellower == ""){
   alert("oh sry i'm dont know your name");
 }else {
   alert("hellow " + hellower);
+
+//<<<<<<<<<<<<<<<task8>>>>>>>>>>>
+let typeOperation = prompt("enter operation","");
+let sum = +prompt("enter quantity money","");
+let money;
+switch (typeOperation.toUpperCase()) {
+  case "USD": money = sum / 24;  break;
+  case "UAN": money = sum * 24;  break;
 }
+alert(money);
