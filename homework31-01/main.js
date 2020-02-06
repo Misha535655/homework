@@ -21,3 +21,11 @@ if (allMoney >= 5000 ){
 }else {
   alert ("go drink beer");
 }
+//<<<<<<<<<<<<<<task4>>>>>>>>>>>>
+let age = +prompt("how old are you", "");
+if (age >= 20 && age <= 30 )
+{
+  alert("hellow army");
+} else {
+  alert("bye bye");
+}
