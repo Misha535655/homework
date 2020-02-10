@@ -11,7 +11,7 @@ if (key in person){
   person.key = prompt("enter property name ");
 }
 console.log (person[key]);
-// // <<<<<<<<<<<<<<<<<task2>>>>>>>>>>>>>>>
+ // <<<<<<<<<<<<<<<<<task2>>>>>>>>>>>>>>>
 var phone = {
   brand: "",
   model:"",
@@ -23,3 +23,18 @@ phone.model = prompt("Enter model");
 phone.resolution = prompt("Enter resolution");
 phone.color = prompt("Enter color");
 person.phone = phone;
+ // <<<<<<<<<<<<<<<<<task3>>>>>>>>>>>>>>>
+
+
+ while (true){
+   var a = prompt("enter delete or update");
+   if ( a == "delete"){
+     deleter = prompt("what to delete?");
+     delete person[deleter];
+   }
+   else if (a == "update"){
+     updater = prompt("what to update?");
+     person[updater] = prompt("enter value");
+   }else {break;}
+ }
+ console.log(person)
