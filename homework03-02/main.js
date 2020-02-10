@@ -16,8 +16,17 @@
 //   else {console.log (".");}
 // }
 // // <<<<<<<<<<<<<<<<<<<<<<task3>>>>>>>>>>>>>>>>>
-while(true){
-  let a = confirm("enter ok or confirm");
-  if (a == false ){}
-  else {break}
+// while(true){
+//   let a = confirm("enter ok or confirm");
+//   if (a == false ){}
+//   else {break}
+// }
+// // <<<<<<<<<<<<<<<<<<<<<<task4>>>>>>>>>>>>>>>>>
+  var i = 0;
+while (true) {
+  var a = Math.random();
+  i = i + 1;
+  if ( a > 0.99){
+    break;}
 }
+alert (a + "  " + i)
