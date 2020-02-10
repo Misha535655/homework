@@ -24,8 +24,6 @@ phone.resolution = prompt("Enter resolution");
 phone.color = prompt("Enter color");
 person.phone = phone;
  // <<<<<<<<<<<<<<<<<task3>>>>>>>>>>>>>>>
-
-
  while (true){
    var a = prompt("enter delete or update");
    if ( a == "delete"){
@@ -38,3 +36,15 @@ person.phone = phone;
    }else {break;}
  }
  console.log(person)
+ // <<<<<<<<<<<<<<<<<task4>>>>>>>>>>>>>>>
+ let dl = document.createElement("dl");
+  let persons = document.querySelector(".person")
+persons.appendChild(dl);
+ for (let keys in person){
+   let dt = document.createElement("dt");
+   dt.innerText = keys;
+   let dd = document.createElement("dd");
+   dd.innerText = person[keys];
+   dl.appendChild(dt);
+   dl.appendChild(dd);
+ }
