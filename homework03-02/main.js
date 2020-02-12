@@ -22,11 +22,13 @@
 //   else {break}
 // }
 // // <<<<<<<<<<<<<<<<<<<<<<task4>>>>>>>>>>>>>>>>>
-  var i = 0;
-while (true) {
-  var a = Math.random();
-  i = i + 1;
-  if ( a > 0.99){
-    break;}
-}
-alert (a + "  " + i)
+//   var i = 0;
+// while (true) {
+//   var a = Math.random();
+//   i = i + 1;
+//   if ( a > 0.99){
+//     break;}
+// }
+// alert (a + "  " + i);
+var a, b, c;
+for (let i = 0; i < 20; i++){}
